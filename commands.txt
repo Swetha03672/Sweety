@@ -1,0 +1,319 @@
+    1  cd Day1
+    2  ls
+    3  yum install git -y
+    4  touch f{1..4}
+    5  ls
+    6  cat >f1
+    7  vi f2
+    8  cat f2
+    9  cp f2 f3
+   10  cat f3
+   11  mv f1 f
+   12  ls
+   13  ps
+   14  kill
+   15  top
+   16  killall
+   17  pstree
+   18  cat /etc/passwd
+   19  useradd sweta
+   20  cat /etc/passwd
+   21  userdel sweta
+   22  groupadd sweta
+   23  cat /etc/group
+   24  groupdel sweta
+   25  cat /etc/group
+   26  uname
+   27  df
+   28  du
+   29  free
+   30  lscpu
+   31  lsblk
+   32  getent passwd
+   33  more f2
+   34  ls /home
+   35  ls /usr
+   36  git init
+   37  ls
+   38  git add .
+   39  git status
+   40  git clone https://github.com/Swetha03672/Sweety.git
+   41  git branch 
+   42  git branch
+   43  git branch swetha
+   44  git commit -m "new commits"
+   45  git status
+   46  ls
+   47  cd sweety
+   48  git push origin master
+   49  git remote add origin https://github.com/Swetha03672/Sweety.git
+   50  git status
+   51  git push origin master
+   52  ls
+   53  touch nf{5..6}
+   54  ls
+   55  git branch
+   56  git branch swetha
+   57  git branch
+   58  git merge swetha
+   59  git switch swetha
+   60  git push origin swetha
+   61  touch f{11.133}.pdf
+   62  vi gitignore
+   63  ls
+   64  rm -rf f{11.133}
+   65  ls
+   66  rm -rf f{11.133}.pdf
+   67  ls
+   68  vi .gitignore
+   69  git status
+   70  git add nf5
+   71  git commit -m "commits"
+   72  git push origin swetha
+   73  git switch master
+   74  git branch
+   75  git stash
+   76  git stash apply
+   77  vi f2
+   78  git stash apply
+   79  git stash lsit
+   80  git stash list
+   81  vi f3
+   82  git stash list
+   83  git status
+   84  git add nf6
+   85  git commit -m "new ones"
+   86  git push origin master
+   87  git reset
+   88  git log
+   89  git log --oneline
+   90  git ls-files
+   91  touch f{7..9}
+   92  git add .
+   93  git checkout sweety
+   94  git checkout Sweety
+   95  ls
+   96  git reset --soft bfdd262
+   97  git log
+   98  git log --oneline
+   99  git ls-files
+  100  git cherry-pick bfdd262
+  101  vi f3
+  102  cat f3
+  103  git log
+  104  git cherry-pick bfdd262 -e
+  105  history
+  106  git branch 
+  107  git checkout -b sweety
+  108  git switch master
+  109  git branch -a
+  110  touch historycommands.txt
+  111  history >> ~/historycommands.txt
+  112  cat historycommands.txt
+  113  git add historycommands.txt
+  114  git status
+  115  git commit -m "git and linux"
+  116  git status
+  117  git push origin master
+  118  git pull origin master
+  119  git push origin swetha
+  120  cat historycommands.txt
+  121  git add historycommands.txt
+  122  git status
+  123  git commit -m "newone"
+  124  git pull origin master
+  125  git pull origin swetha
+  126  git checkout swetha
+  127  git pull origin swetha
+  128  git push origin master
+  129  git push origin swetha
+  130  git switch master
+  131  git pull origin master
+  132  git log
+  133  git status
+  134  ls
+  135  cd Sweety/
+  136  ls
+  137  touch commands.txt
+  138  ls
+  139  history >> ~/commands.txt
+    1  cd Day1
+    2  ls
+    3  yum install git -y
+    4  touch f{1..4}
+    5  ls
+    6  cat >f1
+    7  vi f2
+    8  cat f2
+    9  cp f2 f3
+   10  cat f3
+   11  mv f1 f
+   12  ls
+   13  ps
+   14  kill
+   15  top
+   16  killall
+   17  pstree
+   18  cat /etc/passwd
+   19  useradd sweta
+   20  cat /etc/passwd
+   21  userdel sweta
+   22  groupadd sweta
+   23  cat /etc/group
+   24  groupdel sweta
+   25  cat /etc/group
+   26  uname
+   27  df
+   28  du
+   29  free
+   30  lscpu
+   31  lsblk
+   32  getent passwd
+   33  more f2
+   34  ls /home
+   35  ls /usr
+   36  git init
+   37  ls
+   38  git add .
+   39  git status
+   40  git clone https://github.com/Swetha03672/Sweety.git
+   41  git branch 
+   42  git branch
+   43  git branch swetha
+   44  git commit -m "new commits"
+   45  git status
+   46  ls
+   47  cd sweety
+   48  git push origin master
+   49  git remote add origin https://github.com/Swetha03672/Sweety.git
+   50  git status
+   51  git push origin master
+   52  ls
+   53  touch nf{5..6}
+   54  ls
+   55  git branch
+   56  git branch swetha
+   57  git branch
+   58  git merge swetha
+   59  git switch swetha
+   60  git push origin swetha
+   61  touch f{11.133}.pdf
+   62  vi gitignore
+   63  ls
+   64  rm -rf f{11.133}
+   65  ls
+   66  rm -rf f{11.133}.pdf
+   67  ls
+   68  vi .gitignore
+   69  git status
+   70  git add nf5
+   71  git commit -m "commits"
+   72  git push origin swetha
+   73  git switch master
+   74  git branch
+   75  git stash
+   76  git stash apply
+   77  vi f2
+   78  git stash apply
+   79  git stash lsit
+   80  git stash list
+   81  vi f3
+   82  git stash list
+   83  git status
+   84  git add nf6
+   85  git commit -m "new ones"
+   86  git push origin master
+   87  git reset
+   88  git log
+   89  git log --oneline
+   90  git ls-files
+   91  touch f{7..9}
+   92  git add .
+   93  git checkout sweety
+   94  git checkout Sweety
+   95  ls
+   96  git reset --soft bfdd262
+   97  git log
+   98  git log --oneline
+   99  git ls-files
+  100  git cherry-pick bfdd262
+  101  vi f3
+  102  cat f3
+  103  git log
+  104  git cherry-pick bfdd262 -e
+  105  history
+  106  git branch 
+  107  git checkout -b sweety
+  108  git switch master
+  109  git branch -a
+  110  touch historycommands.txt
+  111  history >> ~/historycommands.txt
+  112  cat historycommands.txt
+  113  git add historycommands.txt
+  114  git status
+  115  git commit -m "git and linux"
+  116  git status
+  117  git push origin master
+  118  git pull origin master
+  119  git push origin swetha
+  120  cat historycommands.txt
+  121  git add historycommands.txt
+  122  git status
+  123  git commit -m "newone"
+  124  git pull origin master
+  125  git pull origin swetha
+  126  git checkout swetha
+  127  git pull origin swetha
+  128  git push origin master
+  129  git push origin swetha
+  130  git switch master
+  131  git pull origin master
+  132  git log
+  133  git status
+  134  ls
+  135  cd Sweety/
+  136  ls
+  137  touch commands.txt
+  138  ls
+  139  history >> ~/commands.txt
+  140  cat commands.txt
+  141  rm -rf commands.txt
+  142  cd ..
+  143  history
+  144  cat historycommands.txt
+  145  git status
+  146  git add historycommands.txt
+  147  git status
+  148  git commit -a
+  149  cat historycommands.txt
+  150  touch history
+  151  history >> ~/history
+  152  cat history
+  153  git add history
+  154  git status
+  155  git clone https://github.com/Swetha03672/Sweety.git
+  156  git commit -m "new one"
+  157  git status
+  158  git pull origin swetha
+  159  git pull origin master
+  160  git push origin master
+  161  git switch swetha
+  162  git pull origin swetha
+  163  git push origin swetha
+  164  git remote -v
+  165  git push origin master
+  166  git pull orign swetha
+  167  git pull origin swetha
+  168  git push origin swetha
+  169  git remote add origin https://github.com/Swetha03672/Sweety.git
+  170  git remote remove -v
+  171  git remote remove origin
+  172  git remote -v
+  173  git remote add origin https://github.com/Swetha03672/Sweety.git
+  174  git remote -v
+  175  git status
+  176  ls
+  177  rm -rf Sweety
+  178  ls
+  179  cat commands.txt
+  180  history >> ~/commands.txt
